@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -95,4 +95,4 @@ int main()
 
     delete[] ships;
     return 0;
-}*/
+}
