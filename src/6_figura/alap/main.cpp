@@ -1,6 +1,6 @@
 #include <iostream>
 #include "figura.h"
-//#include "bastya.h"
+#include "bastya.h"
 //#include "kiraly.h"
 //#include "futo.h"
 //#include "vezer.h"
@@ -10,29 +10,29 @@ using namespace std;
 
 int main()
 {
-//	// Figura osztály teszt: ervenyes függvény
-//	cout << endl;
-//	cout << "Figura teszt: ervenyes" << endl;
-//	cout << Figura::ervenyes("A1") << endl; // 1
-//	cout << Figura::ervenyes("H8") << endl; // 1
-//	cout << Figura::ervenyes("D6") << endl; // 1
-//	cout << Figura::ervenyes("A") << endl; // 0
-//	cout << Figura::ervenyes("a1") << endl; // 0
-//	cout << Figura::ervenyes("X1") << endl; // 0
-//	cout << Figura::ervenyes("A9") << endl; // 0
-//	cout << Figura::ervenyes("A1d") << endl; // 0
+    // Figura osztály teszt: ervenyes függvény
+    cout << endl;
+    cout << "Figura teszt: ervenyes" << endl;
+    cout << Figura::ervenyes("A1") << endl; // 1
+    cout << Figura::ervenyes("H8") << endl; // 1
+    cout << Figura::ervenyes("D6") << endl; // 1
+    cout << Figura::ervenyes("A") << endl; // 0
+    cout << Figura::ervenyes("a1") << endl; // 0
+    cout << Figura::ervenyes("X1") << endl; // 0
+    cout << Figura::ervenyes("A9") << endl; // 0
+    cout << Figura::ervenyes("A1d") << endl; // 0
 
-//	// Bastya osztály teszt: lephet függvény
-//	cout << endl;
-//	cout << "Bastya teszt: lephet" << endl;
-//	Bastya b1("C5");
-//	cout << b1.lephet("C5") << endl; // 0
-//	cout << b1.lephet("C8") << endl; // 1
-//	cout << b1.lephet("D3") << endl; // 0
-//	cout << b1.lephet("C4") << endl; // 1
-//	cout << b1.lephet("E5") << endl; // 1
-//	cout << b1.lephet("H5") << endl; // 1
-//	cout << b1.lephet("A3") << endl; // 0
+    // Bastya osztály teszt: lephet függvény
+    cout << endl;
+    cout << "Bastya teszt: lephet" << endl;
+    Bastya b1("C5");
+    cout << b1.lephet("C5") << endl; // 0
+    cout << b1.lephet("C8") << endl; // 1
+    cout << b1.lephet("D3") << endl; // 0
+    cout << b1.lephet("C4") << endl; // 1
+    cout << b1.lephet("E5") << endl; // 1
+    cout << b1.lephet("H5") << endl; // 1
+    cout << b1.lephet("A3") << endl; // 0
 
 //	// Kiraly osztály teszt: lephet függvény
 //	cout << endl;

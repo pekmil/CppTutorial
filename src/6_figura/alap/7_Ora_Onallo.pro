@@ -4,7 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    figura.cpp
+    figura.cpp \
+    bastya.cpp
 
 HEADERS += \
-    figura.h
+    figura.h \
+    bastya.h
