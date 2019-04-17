@@ -1,4 +1,6 @@
 src/build*
 src/test/*
 *.pptx
+*.xlsx
 jelenlet/*
+kezdo/*
